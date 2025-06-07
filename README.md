@@ -65,6 +65,9 @@
   Bạn có thể mang bản tóm tắt này đi thảo luận nhóm, chia task theo phần: 
   
   Người 1: thiết kế CSDL + tạo DAO 
+  
   Người 2: làm giao diện 
+  
   Người 3: kết nối và xử lý sự kiện  
+  
   Người 4: viết báo cáo, test
