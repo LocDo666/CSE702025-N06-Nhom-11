@@ -1,5 +1,6 @@
 # CSE702025-N06-Nhom-11
 🧭 TÓM TẮT QUY TRÌNH XÂY HỆ THỐNG QUẢN LÝ KHO VẬT TƯ Ô TÔ
+
   ✅ 1. Xác định chức năng hệ thống
     Quản lý thông tin vật tư (thêm, sửa, xóa, tìm kiếm)
     Hiển thị danh sách vật tư    
@@ -62,6 +63,7 @@
   
   Nhận xét – Đánh giá  
   Bạn có thể mang bản tóm tắt này đi thảo luận nhóm, chia task theo phần: 
+  
   Người 1: thiết kế CSDL + tạo DAO 
   Người 2: làm giao diện 
   Người 3: kết nối và xử lý sự kiện  
