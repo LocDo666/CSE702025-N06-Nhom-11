@@ -4,12 +4,12 @@
   ✅ 1. Xác định chức năng hệ thống
     Quản lý thông tin vật tư (thêm, sửa, xóa, tìm kiếm)
     Hiển thị danh sách vật tư    
-    (Tuỳ chọn) Thống kê, xuất Excel...
+    
     
   ✅ 2. Chọn công nghệ
-    Ngôn ngữ: Java
+    Ngôn ngữ: Python
     Loại ứng dụng: Desktop App (giao diện Swing)  
-    IDE: Apache NetBeans
+    IDE: VScode
     Cơ sở dữ liệu: MySQL    
     Thư viện kết nối: JDBC (MySQL Connector)
     
@@ -18,17 +18,29 @@
   Tạo bảng vat_tu với các trường: 
   maVT (PK), tenVT, soLuong, donGia, nhaCungCap
   
-  ✅ 4. Tạo project Java
-  Tạo project Java trong NetBeans 
+  ✅ 4. Tạo project VScode
+  Tạo  project Python trong VScode 
   Cấu trúc thư mục:
-  bash
-  Copy
-  Edit
-  /model      → class VatTu.java
-  /dao        → DBConnect.java, VatTuDAO.java
-  /view       → Giao diện Swing (form chính)
+  assets
+    /logo
+  Build
+    /file được sinh ra do quá trình chạy 
+  database
+    /_pycache_
+        /ứng dụng python chạy nền
+    /db_connector
+        để kết nối Python và Mysql
+  dist
+    /file chính để chạy ứng dụng khi hoàn thành 
+  model
+    /các chức năng chính khi thao tác trên giao diện
+  UI
+    /các tab giao diện
+          main
+          main.spec
+ 
   
-  ✅ 5. Kết nối Java ↔ MySQL
+  ✅ 5. Kết nối VScode ↔ MySQL
   Thêm thư viện mysql-connector-java vào project  
   Tạo lớp DBConnect để mở kết nối database  
   Viết DAO để:  
@@ -43,7 +55,7 @@
   Các nút: Thêm, Sửa, Xóa, Làm mới
   
   ✅ 7. Kết nối logic giao diện với dữ liệu
-  Khi ấn nút “Thêm” → gọi insertVatTu(...)  
+  Khi ấn nút “Thêm” 
   Khi mở chương trình → gọi getAllVatTu() → đổ vào JTable  
   Khi chọn hàng → hiển thị thông tin lên ô nhập  
   Khi “Xóa”, “Sửa” → cập nhật hoặc xóa dữ liệu trong database
@@ -53,18 +65,18 @@
   Bổ sung giao diện đẹp hơn (tuỳ ý)  
   Làm báo cáo: UML, ảnh giao diện, mô tả chức năng, mã nguồn
   
-  📌 Gợi ý trình bày báo cáo
   Mục tiêu hệ thống  
   Công nghệ sử dụng  
   Thiết kế CSDL (ERD hoặc bảng thực tế)  
   Mô hình lớp (class diagram)  
-  Ảnh giao diện (form Swing)  
+  Ảnh giao diện (form Python)  
   Một số đoạn code tiêu biểu (DAO, kết nối DB)  
   
-  Nhận xét – Đánh giá  
-  Bạn có thể mang bản tóm tắt này đi thảo luận nhóm, chia task theo phần: 
+  Nhận xét – Đánh giá  :
+
   
-  Người 1: thiết kế CSDL + tạo DAO 
+  
+  Người 1: thiết kế CSDL 
   
   Người 2: làm giao diện 
   
