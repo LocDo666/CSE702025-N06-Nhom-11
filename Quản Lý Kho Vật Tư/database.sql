@@ -104,6 +104,24 @@ CREATE TABLE lich_su_giao_dich (
 );
 
 
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty TNHH Thiên Long', '12 Trần Hưng Đạo, Hà Nội', '0999611975');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty CP Hoà Bình', '89 Lê Lợi, TP.HCM', '0956193278');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty TNHH Đại Phát', '45 Nguyễn Văn Cừ, Hải Phòng', '0982338451');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty CP Hồng Hà', '77 Trần Phú, Đà Nẵng', '0946759640');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty TNHH Việt Nhật', '33 Hai Bà Trưng, Hà Nội', '0977758054');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty TNHH Minh Anh', '14 Nguyễn Trãi, TP.HCM', '0991794355');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty CP Tân Tiến', '65 Điện Biên Phủ, Cần Thơ', '0997314172');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty TNHH Nam Sơn', '10 Pasteur, Nha Trang', '0972693145');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty TNHH Ánh Dương', '21 Phan Đình Phùng, Huế', '0915374748');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty CP Thành Công', '88 Võ Thị Sáu, Biên Hòa', '0931594795');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty TNHH Trường An', '22 Trường Chinh, Vũng Tàu', '0920338218');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty CP Đại Hưng', '39 Cách Mạng Tháng Tám, Bình Dương', '0950586786');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty TNHH Hữu Nghị', '56 Nguyễn Huệ, TP.HCM', '0945619696');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty TNHH Đại Nam', '90 Lạc Long Quân, Quảng Ninh', '0913556205');
+INSERT INTO nha_cung_cap (tenNCC, diaChi, soDienThoai) VALUES ('Công ty CP Đông Dương', '100 Phạm Văn Đồng, Hà Nội', '0919958871');
+
+
+
 INSERT INTO nhan_vien (tenNV, chucVu, boPhan) VALUES ('Nguyễn Văn An', 'Thủ kho', 'Kho vật tư');
 INSERT INTO nhan_vien (tenNV, chucVu, boPhan) VALUES ('Trần Thị Bình', 'Nhân viên', 'Tài chính');
 INSERT INTO nhan_vien (tenNV, chucVu, boPhan) VALUES ('Lê Văn Cường', 'Kế toán', 'Quản trị');
@@ -116,11 +134,11 @@ INSERT INTO nhan_vien (tenNV, chucVu, boPhan) VALUES ('Bùi Văn Khánh', 'Nhân
 INSERT INTO nhan_vien (tenNV, chucVu, boPhan) VALUES ('Trịnh Thị Lan', 'Quản lý', 'Tài chính');
 
 
-INSERT INTO vat_tu (tenVT, donViTinh, soLuongTon, donGia, maNCC) VALUES ('Mỡ bôi trơn', 'cái', 180, 180000, 2);
-INSERT INTO vat_tu (tenVT, donViTinh, soLuongTon, donGia, maNCC) VALUES ('Lọc gió', 'cái', 75, 95000, 7);
-INSERT INTO vat_tu (tenVT, donViTinh, soLuongTon, donGia, maNCC) VALUES ('Lọc nhớt', 'cái', 120, 110000, 5);
-INSERT INTO vat_tu (tenVT, donViTinh, soLuongTon, donGia, maNCC) VALUES ('Má phanh xe du lịch', 'cái', 40, 250000, 3);
-INSERT INTO vat_tu (tenVT, donViTinh, soLuongTon, donGia, maNCC) VALUES ('Má phanh xe tải', 'cái', 35, 300000, 6);
+INSERT INTO vat_tu (maVT,tenVT, donViTinh, soLuongTon, donGia, maNCC) VALUES ('1','Mỡ bôi trơn', 'cái', 180, 180000, 2);
+INSERT INTO vat_tu (maVT,tenVT, donViTinh, soLuongTon, donGia, maNCC) VALUES ('2','Lọc gió', 'cái', 75, 95000, 7);
+INSERT INTO vat_tu (maVT,tenVT, donViTinh, soLuongTon, donGia, maNCC) VALUES ('3','Lọc nhớt', 'cái', 120, 110000, 5);
+INSERT INTO vat_tu (maVT,tenVT, donViTinh, soLuongTon, donGia, maNCC) VALUES ('4','Má phanh xe du lịch', 'cái', 40, 250000, 3);
+INSERT INTO vat_tu (maVT,tenVT, donViTinh, soLuongTon, donGia, maNCC) VALUES ('5','Má phanh xe tải', 'cái', 35, 300000, 6);
 
 
 INSERT INTO phieu_nhap (ngayNhap, maNCC, maNV) VALUES ('2025-06-01', 1, 1);
